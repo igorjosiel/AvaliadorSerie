@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+:root {
+  --primary-background-color: #87CEEB;
+  --primary-text-color: #696969;
+  --white-color: #FFFFFF;
+  --max-width: 80%;
+}

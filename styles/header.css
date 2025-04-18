@@ -1,0 +1,36 @@
+header {
+  background-color: var(--primary-background-color);
+  height: 5.5rem;
+}
+
+.navigation {
+  max-width: var(--max-width);
+  height: 100%;
+  margin: auto;
+}
+
+.navigation__list-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  height: 100%;
+  list-style-type: none;
+}
+
+.navigation__list-items li {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.navigation__list-items li:hover {
+  cursor: pointer;
+  background-color: var(--white-color);
+}
+
+.navigation__list-items__link {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
