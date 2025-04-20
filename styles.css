@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,8 +9,9 @@ body {
 }
 
 :root {
-  --primary-background-color: #87CEEB;
-  --primary-text-color: #696969;
+  --primary-background-color: #1C3144;
+  --secondary-background-color: #C3D898;
+  --primary-text-color: #7EA16B;
   --white-color: #FFFFFF;
   --max-width: 80%;
 }

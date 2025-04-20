@@ -1,4 +1,4 @@
 footer {
-  background-color: #87CEEB;
+  background-color: var(--primary-background-color);
   height: 6rem;
 }
